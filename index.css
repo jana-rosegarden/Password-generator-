@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #1F2937;
+}
+
+#holder {
+    width: 60%;
+    margin: auto;
+    background-color: #1F2937;
+    padding: 3em;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+}
+
+span {
+    color: #4ADF86;
+}
+
+p {
+    color: #D5D4D8;
+    margin-bottom: 3em;
+    margin: 0;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+button{
+    background-color: #4ADF86;
+    border: none;
+    color: white;
+    padding: 0.6em 1em;
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+    letter-spacing: 0.1em;
+}        
+
+hr {
+    height: 1px;
+    background-color: #273549;
+    border: none;
+}
+
+#inputs{
+    display: flex;
+    gap: 1em;
+    align-items: baseline;
+}
+
+input{
+    background-color: #273549;
+    border: none;
+    border-radius: 0.3em;
+    color: #4ADF86;
+    padding: 0.6em 1.3em;
+    text-align: center;
+} 
+
+#number {
+    border: #4ADF86 solid 2px;
+    box-sizing: border-box;
+    margin-left: 1em;
+}
+
+.green-font { 
+color: #4ADF86;
+}
+
+#reset-btn {
+    margin-top: 2em;
+    color: #1F2937;
+    font-weight: bolder;
+}
+.red-color-text{
+    color: red;
+}
+*:disabled {
+    opacity: 0.5;
+}
